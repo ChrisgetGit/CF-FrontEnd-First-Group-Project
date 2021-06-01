@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 12rem; /* Same as the width of the sidebar */
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+.themed-background {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 4rem;
+}
+
+img {
+  max-width: 30rem;
+}
+
+.text {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  img {
+    max-width: 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 15rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .themed-background {
+    flex-flow: column nowrap;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  .side-nav {
+    display: none;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: #0b113c;
+  font-family: "Comic Neue";
+}
+
+.gray-font {
+  color: #818181;
+}
+
+.theme-font {
+  color: white;
+  text-align: justify;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title-theme-font {
+  color: white;
+}
+
+.name {
+  text-align: center;
+  line-height: 3rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.bigger {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.visibility {
+  visibility: hidden;
+}

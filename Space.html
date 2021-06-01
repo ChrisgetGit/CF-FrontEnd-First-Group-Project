@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Space</title>
+
+    <link rel="stylesheet" href="css/game/gamestyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="back">
+      <div id="close"><a href="index.html">X</a></div>
+      <div><a href="Space.html" id="restart"style="color: #00f700"></a></div>
+
+      <div id="kill">
+        <h1>DESTROY THE ALIENS</h1>
+
+        <p id="boxEnd3">
+          CLICK FAST ON THE ALIEN SHIPS<br/>TO DESTROY THEM!!!
+        </p>
+        <p id="boxEnd2">CLICK ON THE ROCKET TO START</p>
+      </div>
+
+      <div id="room">
+        <p id="countdown"></p>
+        <p id="gameFin" style="color: #00f700"></p>
+
+        <div id="enemy"><img id="ufo" src=./images/ufo.gif></div>
+      </div>
+
+      <div id="home"><img id="rocket" src=./images/rocketani2.gif></div>
+      <audio id = "audio">
+          <source src="expl.mp3" type="audio/mp3">
+        Your browser does not support the audio (shipexplosion.mp3) element.
+        </audio>
+
+      <div id = "highscore">
+        <p id = "topResult"></p>
+      </div>
+
+      <div id="result">
+        <p class="boxEnd1" id="timecount"></p>
+        <p class="boxEnd1" style="color: lightgrey" id="timeTaken"></p>
+        <p class="boxEnd1" id="fastesttry"></p>
+      </div>
+
+      
+    </div>
+
+    <script type="text/javascript" src="js/mech.js"></script>
+  </body>
+</html>
